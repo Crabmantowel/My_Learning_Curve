@@ -9,5 +9,5 @@ for line in fh:
     number_start = line.find(' ')
     cut_number = float(line[number_start:])
     summed_numbers = summed_numbers + cut_number
-average_number = summed_numbers/average_counter
+average_number = summed_numbers / average_counter
 print("Average spam confidence: ", average_number)
