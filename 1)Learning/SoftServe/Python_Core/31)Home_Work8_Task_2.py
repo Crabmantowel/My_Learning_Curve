@@ -1,7 +1,5 @@
 def sorter(textbooks):
-    for words in textbooks:
-        textbooks[words] = words.upper() 
-    pass
+    return sorted(textbooks, key=str.lower)
 
 
 list_to_be_sorted = ['Alg#bra', '$istory', 'Geom^try', '**english']
